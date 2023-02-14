@@ -7,31 +7,11 @@ body {
     list-style: none;
 }
 
-.ul3 > li {
+.all > li {
     display: none;
 }
 
-.ul2 > li {
-    display: none;
-}
-
-.ul4 > li {
-    display: none;
-}
-
-.ul1 li:hover > .ul2 > li {
-    display: block;
-    margin-left: 20px;
-    position: relative;
-}
-
-.ul2 li:hover > .ul3 > li {
-    display: block;
-    margin-left: 20px;
-    position: relative;
-}
-
-.ul3 li:hover > .ul4 > li {
+.all li:hover > .all1 > li {
     display: block;
     margin-left: 20px;
     position: relative;
