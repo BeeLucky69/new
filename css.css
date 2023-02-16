@@ -3,24 +3,50 @@ body {
     padding: 0;
 }
 
-.all {
+ul {
     list-style: none;
 }
 
-.all > li {
-    display: none;
-}
-
-.all li:hover > .all1 > li {
-    display: block;
-    margin-left: 20px;
-    position: relative;
+.clear {
+    clear: both;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
-li {
-    margin-top: 10px;
+.ul1 {
+    float: left;
+}
+
+.ul1 > li {
+    float: left;
+    width: 100px;
+    background-color: rgb(169, 169, 169);
+    border-right: solid 1px;
+}
+
+.ul1 > li > a {
+    float: left;
+    width: 100px;
+    height: 40px;
+}
+
+.ul2 > li {
+    display: none;
+}
+
+.ul3 > li {
+    display: none;
+}
+
+.ul1 > li:hover > .ul2 > li {
+    display: block;
+    transition: all 0.2s;
+}
+
+.ul1 > li:hover > .ul3 > li {
+    display: block;
+    transition: all 0.2s;
 }
