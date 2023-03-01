@@ -5,17 +5,25 @@
 </head>
 <body>
 
-  <div id="chat-container">
-    <div id="chat-messages">
+  <div id="image-slider">
+    <div class="container">
+      <div>
+        <p class="texts active"  >1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, necessitatibus.</p>
+        <img src="img/img1.jpeg" class="active" alt="">
+      </div>
+      <div>
+        <p class="texts">2. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <img src="img/img2.jpeg" alt="">
+      </div>
+      <div>
+        <p class="texts">3. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img src="img/img3.jpeg" alt="">
+      </div>
     </div>
-    <div id="chat-input">
-      <input type="text" id="message-input" placeholder="Type your message..." />
-      <button id="send-button">Send</button>
+    <div class="btns">
+      <button class="prev">Back</button>
+      <button class="next">Next</button>
     </div>
-
-    <div class="clear"></div>
-
-    <div id="error-message"></div>
    </div>
 
    <script src="js.js"></script>
